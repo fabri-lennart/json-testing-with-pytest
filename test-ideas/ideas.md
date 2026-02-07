@@ -4,8 +4,8 @@ Based on the CRM JSON structure, these are the **most relevant and realistic dat
 
 ## 📥 Extraction & Normalization
 
-- [ ] Extract and flatten customer full name (`first_name + last_name`)
-- [ ] Extract and validate customer email format
+- [✔️] Extract and flatten customer full name (`first_name + last_name`)
+- [✔️] Extract and validate customer email format
 - [ ] Flatten nested structures (`personal_info`, `address`, `company`, `engagement`)
 - [ ] Normalize state names (e.g. "CDMX" → "Ciudad de México")
 - [ ] Convert all date fields to ISO 8601 timestamps
